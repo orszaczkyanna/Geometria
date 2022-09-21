@@ -11,6 +11,12 @@ namespace Geometria
         double sugar;
         double atmero;
 
+        public Kor(double sugar)
+        {
+            Sugar = sugar;
+        }
+
+
         //public double Sugar { get => sugar; set => sugar = value; }
         //public double Atmero { get => atmero; set => atmero = value; }
 
@@ -30,10 +36,7 @@ namespace Geometria
         }
 
 
-        public Kor(double sugar)
-        {
-            Sugar = sugar;
-        }
+
 
 
         public double Atmero { get => 2*sugar;}
